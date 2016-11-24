@@ -1,0 +1,2 @@
+#dial{position:absolute;z-index:99;background: radial-gradient(circle, #c1b9b9,#6b6464);text-align:center;border: 1px rgba(0, 0, 0, 0.5) solid;transform-origin:center;transform:rotate(0rad);box-shadow: 0px 0px 6px 1px black;color:white;}
+.marker{position:absolute;height:4px;border-radius: 2px;width:20px;background: linear-gradient(270deg, rgba(37, 94, 183, 0.74),rgba(191, 185, 185, 0.5));transform-origin:left}

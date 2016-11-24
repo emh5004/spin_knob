@@ -1,0 +1,26 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, user-scalable=no">
+<link rel=stylesheet href="knob.css">
+<style>
+#x{height:300px;width:300px;}
+</style>
+<script src="knob.js"></script>
+</head>
+<body>
+<span id=counter>0</span>
+<div id=x></div>
+<script>
+function increment()
+{
+document.getElementById("counter").innerHTML = parseInt(document.getElementById("counter").innerHTML) + 1;
+}
+function decrement()
+{
+document.getElementById("counter").innerHTML = document.getElementById("counter").innerHTML - 1;
+}
+
+var dialWidget = new volumeKnob("x",8,function(){increment()},function(){decrement()})
+</script>
+</body>
+</html>
